@@ -1,0 +1,47 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+// SQLITE
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// POSTGRESQL
+// datasource db {
+//   provider = "postgresql"
+//   url      = env("DATABASE_URL")
+// }
+
+model Form {
+  id                String        @id @default(cuid())
+  name              String
+  url               String
+  tipo              String
+  description       String
+}
+
+model Email {
+  id                String        @id @default(cuid())
+  clientEmail       String
+  fileName          String
+  subject           String
+  content           String
+  filePath          String
+  deliveryStatus    String        @default("created")
+  readStatus        Boolean       @default(false)
+  responseStatus    Boolean       @default(false)
+  error             String?
+  createdAt         DateTime      @default(now())
+  updatedAt         DateTime      @updatedAt
+  sentAt            DateTime?
+  readAt            DateTime?
+  responseAt        DateTime?
+}
