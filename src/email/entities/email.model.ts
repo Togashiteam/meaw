@@ -1,4 +1,4 @@
-import { File } from 'src/file-watcher/entity/file.entity';
+import { File } from 'src/file-watcher/entities/file.model';
 import { StatusDelivery } from 'src/shared/enums/status-delivery.enum';
 
 export class Email implements IEmail {

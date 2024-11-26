@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service';
-import { SendEmailDto } from './dto/send-email.dto';
+import { SendEmailDto } from './entities/send-email.dto';
 import { StatusDelivery } from 'src/shared/enums/status-delivery.enum';
 import * as nodemailer from 'nodemailer';
 
