@@ -134,12 +134,12 @@
 | ------------------------------------- | ----- |
 | Planejamento e análises               | 12    |
 | Leitura e Processamento do XML        | 16    |
-| Banco de Dados (SQLite)               | 11    |
+| Banco de Dados (SQLite)               | 12    |
 | Agendamento e Envio de E-mails        | 19    |
 | Gerenciamento de Interações com email | 15    |
-| APIs e Backend                        | 11    |
+| APIs e Backend                        | 14    |
 | Relatórios                            | 8     |
-| Testes e Documentação                 | 24    |
+| Testes e Documentação                 | 36    |
 | Implementação e treinamento           | 16    |
 | **Total**                             | 122   |
 
@@ -147,25 +147,25 @@
 
 | Etapa                               | Horas |
 | ----------------------------------- | ----- |
-| Configuração de Projeto             | 2     |
+| Configuração de Projeto             | 4     |
 | Desenvolvimento de Interfaces       | 12    |
-| Integração com API                  | 16    |
-| Desenvolvimento de Filtros e Listas | 12    |
-| Apresentação de Relatório           | 14    |
+| Integração com API                  | 10     |
+| Desenvolvimento de Filtros e Listas | 12     |
+| Apresentação de Relatório \*        | 14    |
 | Instalador                          | 12    |
-| Vinculação e Registro com Windows   | 16    |
-| Testes e Documentação               | 18    |
+| Vinculação e Registro com Windows   | 18    |
+| Testes e Documentação               | 22    |
 | Implementação e treinamento         | 6     |
-| **Total**                           | 0     |
+| **Total**                           | 108   |
 
 ##### Resumo de Escopo em Terceiro Estágio
 
 | Etapa                                 | Horas |
 | ------------------------------------- | ----- |
-| Configuração do Ambiente Google Cloud | 4     |
-| Implementação de autenticação segura  | 12    |
-| Automatização de processo na API      | 14    |
-| Testes e Documentação                 | 16    |
+| Configuração do Ambiente Google Cloud | 6     |
+| Implementação de autenticação segura  | 14    |
+| Automatização de processo na API      | 12    |
+| Testes e Documentação                 | 18    |
 | Implementação e treinamento           | 2     |
 | **Total**                             | 126   |
 
@@ -213,3 +213,8 @@ src/
 │       ├── form-type.enum.ts
 │       └── status-delivery.enum.ts
 ```
+
+## Produto Final
+1 - Arquivo executável monitorando pasta e algumas opções simples
+2 - Interface Gráfica (listagem, ações em batch, gerar um arquivo CSV ou XLS, Visualização de gráficos\*1 )
+3 - Integração Google Cloud e automatização de respostas dos formulários
