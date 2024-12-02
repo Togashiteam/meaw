@@ -1,5 +1,11 @@
 # Projeto Meaw
 
+## Opções de Produto Final
+
+-1 - Arquivo executável monitorando pasta, enviando emails por arquivo encontrado e algumas opções.
+-2 - Interface Gráfica (listagem, ações em batch, gerar um arquivo CSV ou XLS, Visualização de gráficos\*1 ).
+-3 - Integração Google Cloud e automatização de respostas dos formulários.
+
 ## Índice
 
 [Descrição](#Descrição)
@@ -213,9 +219,3 @@ src/
 │       ├── form-type.enum.ts
 │       └── status-delivery.enum.ts
 ```
-
-## Produto Final
-
--1 - Arquivo executável monitorando pasta, enviando emails por arquivo encontrado e algumas opções.
--2 - Interface Gráfica (listagem, ações em batch, gerar um arquivo CSV ou XLS, Visualização de gráficos\*1 ).
--3 - Integração Google Cloud e automatização de respostas dos formulários.
