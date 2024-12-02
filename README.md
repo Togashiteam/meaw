@@ -141,7 +141,7 @@
 | Relatórios                            | 8     |
 | Testes e Documentação                 | 36    |
 | Implementação e treinamento           | 16    |
-| **Total**                             | 122   |
+| **Total**                             | 148   |
 
 ##### Resumo de Escopo em Segundo Estágio
 
@@ -149,14 +149,14 @@
 | ----------------------------------- | ----- |
 | Configuração de Projeto             | 4     |
 | Desenvolvimento de Interfaces       | 12    |
-| Integração com API                  | 10     |
-| Desenvolvimento de Filtros e Listas | 12     |
+| Integração com API                  | 10    |
+| Desenvolvimento de Filtros e Listas | 12    |
 | Apresentação de Relatório \*        | 14    |
 | Instalador                          | 12    |
 | Vinculação e Registro com Windows   | 18    |
 | Testes e Documentação               | 22    |
 | Implementação e treinamento         | 6     |
-| **Total**                           | 108   |
+| **Total**                           | 110   |
 
 ##### Resumo de Escopo em Terceiro Estágio
 
@@ -167,7 +167,7 @@
 | Automatização de processo na API      | 12    |
 | Testes e Documentação                 | 18    |
 | Implementação e treinamento           | 2     |
-| **Total**                             | 126   |
+| **Total**                             | 52    |
 
 ## Requisitos
 
@@ -215,6 +215,7 @@ src/
 ```
 
 ## Produto Final
--1 - Arquivo executável monitorando pasta e algumas opções simples
--2 - Interface Gráfica (listagem, ações em batch, gerar um arquivo CSV ou XLS, Visualização de gráficos\*1 )
--3 - Integração Google Cloud e automatização de respostas dos formulários
+
+-1 - Arquivo executável monitorando pasta, enviando emails por arquivo encontrado e algumas opções.
+-2 - Interface Gráfica (listagem, ações em batch, gerar um arquivo CSV ou XLS, Visualização de gráficos\*1 ).
+-3 - Integração Google Cloud e automatização de respostas dos formulários.
