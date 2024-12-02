@@ -4,7 +4,7 @@
 
 -1 - Arquivo executável monitorando pasta, enviando emails por arquivo encontrado e algumas opções.
 
--2 - Interface Gráfica (listagem, ações em batch, gerar um arquivo CSV ou XLS, Visualização de gráficos\*1 ).
+-2 - Interface Gráfica (listagem, ações em lotes, gerar um arquivo CSV ou XLS como relatório, Visualização de gráficos\*1 ).
 
 -3 - Integração Google Cloud e automatização de respostas dos formulários.
 
