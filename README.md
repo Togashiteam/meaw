@@ -215,6 +215,6 @@ src/
 ```
 
 ## Produto Final
-1 - Arquivo executável monitorando pasta e algumas opções simples
-2 - Interface Gráfica (listagem, ações em batch, gerar um arquivo CSV ou XLS, Visualização de gráficos\*1 )
-3 - Integração Google Cloud e automatização de respostas dos formulários
+-1 - Arquivo executável monitorando pasta e algumas opções simples
+-2 - Interface Gráfica (listagem, ações em batch, gerar um arquivo CSV ou XLS, Visualização de gráficos\*1 )
+-3 - Integração Google Cloud e automatização de respostas dos formulários
