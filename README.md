@@ -15,11 +15,11 @@
 - 2 **Interface Gráfica** (listagem, ações em batch, gerar arquivos CSV ou XLS, Visualização de gráficos ).
 - 3 **Integração Google Cloud** e automatização de respostas dos formulários.
 
-##### Planejamento
+### Planejamento
 
 Produção de código em 3 linhas diferentes: **3 meses**
 Integração e testes: **1 mes**
-Implementação e Ajustes: **2 a 3 mes**
+Implementação e Ajustes: **2 a 3 meses**
 
 ## Descrição
 
