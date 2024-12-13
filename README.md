@@ -19,13 +19,13 @@
 
 ##### Estrutura da Aplicação:
 
-- **Electron**: Interface gráfica, interagindo com o usuário e gerenciando a pasta de monitoramento.
-- **NestJS**: API REST para lidar com a lógica de negócio, como processamento dos arquivos, interação com o banco de dados SQLite e envio de emails.
+- **Electron**: Interface gráfica, interagindo com o usuário, que permite o gerenciamento da pasta de monitoramento, Acesso a listas e funções mais personalizadas, apresentação de dados e relatórios.
+- **NestJS**: Sistema com Api Rest que lida com toda lógica de negócio, como processamento dos arquivos, envio de email e integração com o banco de dados.
 - **SQLite**: Banco de dados local para armazenar informações sobre os clientes, status das pesquisas e histórico de envios de emails.
 
 ##### Fluxo de Trabalho (Escopo Principal)
 
-- **Monitoramento da pasta**: Electron monitora a pasta continuamente e, a cada hora, verifica se novos arquivos XML foram gerados.
+- **Monitoramento da pasta**: Sistema monitora a pasta continuamente e, de tempo em tempo hora, verifica se novos arquivos XML foram gerados.
 - **Processamento dos arquivos XML**: NestJS extrai os dados relevantes (email, dados do cliente) dos arquivos XML e os salva no banco de dados SQLite.
 - **Envio de emails**: NestJS envia um email para o cliente com um link para a pesquisa de satisfação no Google Forms.
 - **Gerenciamento de status**: NestJS acompanha o status da pesquisa (respondida ou não) através da API do Google Forms e envia lembretes caso necessário.
