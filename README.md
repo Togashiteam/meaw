@@ -3,6 +3,8 @@
 ## Índice
 
 [Produto](#Produto)
+[Planejamento](#Planejamento)
+[Propostas](#Propostas)
 [Descrição](#Descrição)
 [Escopo](#Escopo)
 [Etapas](#Etapas)
@@ -15,15 +17,27 @@
 - 2 **Interface Gráfica** (listagem, ações em batch, gerar arquivos CSV ou XLS, Visualização de gráficos ).
 - 3 **Integração Google Cloud** e automatização de respostas dos formulários.
 
-### Planejamento
+## Planejamento
 
 Produção de código em 3 linhas diferentes: **3 meses**
 Integração e testes: **1 mes**
 Implementação e Ajustes: **2 a 3 meses**
 
+## Propostas
+
+- **Programa Executável**
+  - Tempo: 148 horas
+  - Valor: R$ 7.400,00
+- **Interface Gráfica**
+  - Tempo: 110 horas.
+  - Valor: R$ 13.600,00
+- **Integração Google Cloud**
+  - Tempo: 52 horas
+  - Valor: R$ 14.800,00
+
 ## Descrição
 
-##### Estrutura da Aplicação:
+#### Estrutura da Aplicação:
 
 - **Electron**: Interface gráfica, interagindo com o usuário, que permite o gerenciamento da pasta de monitoramento, Acesso a listas e funções mais personalizadas, apresentação de dados e relatórios.
 - **NestJS**: Sistema com Api Rest que lida com toda lógica de negócio, como processamento dos arquivos, envio de email e integração com o banco de dados.
@@ -51,7 +65,7 @@ Implementação e Ajustes: **2 a 3 meses**
 
 ## Escopo
 
-##### Funcionalidades Principais
+#### Funcionalidades Principais
 
 - 1 Configurações
   - 1.1 Configurar pasta a ser monitorada.
@@ -141,7 +155,7 @@ Implementação e Ajustes: **2 a 3 meses**
 
 ## Etapas
 
-##### Resumo de Funcionalidades Básicas
+#### Resumo de Funcionalidades Básicas
 
 | Etapa                                 | Horas |
 | ------------------------------------- | ----- |
