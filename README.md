@@ -62,15 +62,15 @@ O projeto será desenvolvido em 3 frentes separadas, que se conectam em seu est�
 
 ## Propostas
 
-- **Programa Executável**
+- Básico - ****Programa Executável***
   - Tempo: 148 horas
-  - Valor: R$ 7.400,00
-- **Interface Gráfica**
+  - Valor: R$ 8.880,00
+- Interface - ***Interface Gráfica***
   - Tempo: 110 horas.
-  - Valor: R$ 13.600,00
-- **Integração Google Cloud**
+  - Valor: R$ 15.480,00
+- Automação - ***Integração Google Cloud***
   - Tempo: 52 horas
-  - Valor: R$ 14.800,00
+  - Valor: R$ 18.600,00
 
 
 ## Escopo
