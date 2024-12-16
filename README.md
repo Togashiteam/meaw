@@ -19,9 +19,11 @@
 
 ## Planejamento
 
-Produção de código em 3 frentes diferentes: **3 meses**
-Integração e testes: **1 mes**
-Implementação e Ajustes: **2 a 3 meses**
+Produção de código em 3 frentes diferentes: **3 meses**.
+
+Integração e testes: **1 mes**.
+
+Implementação e Ajustes: **2 a 3 meses**.
 
 ## Descrição
 
