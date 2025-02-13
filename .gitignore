@@ -54,3 +54,9 @@ pids
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Travando os .lock
+# Só descomentar na Máquina do@Evandro que estará servindo de referência
+yarn.lock
+package-lock.json
+
